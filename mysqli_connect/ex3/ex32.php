@@ -36,7 +36,7 @@ NO s’ha de mostrar ni el país ni el percentatge.-->
         $conn = mysqli_connect('localhost','admin','admin');
  		mysqli_select_db($conn, 'mundo');
 
-        $consulta = "SELECT * FROM city where population>= $min and population<= $max ORDER BY population DESC;";
+        $consulta = "SELECT * FROM city where ;";
 
  		$resultat = mysqli_query($conn, $consulta); 
 		
